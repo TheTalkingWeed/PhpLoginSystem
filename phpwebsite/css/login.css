@@ -1,0 +1,59 @@
+section.login-form{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size:35px;
+}
+
+h2{
+    margin: 20px;
+}
+
+.massage{
+    font-weight: bold;
+    color: rgb(39, 128, 158);
+}
+
+.inputs{
+ 
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+input{
+    width: 350px;
+    height: 37px;
+    margin: 5px;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    padding: 6px;
+}
+
+input:focus{
+    outline: none;
+    border : 2px solid blue;
+}
+
+button[name = "submit"]{
+    width: 240px;
+    height: 37px ;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    font-size: 25px;    
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+button[name = "submit"]:hover{
+    background-color: lightgreen;
+    
+}
+
